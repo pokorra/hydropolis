@@ -1,0 +1,70 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/desktop_backgroundj.jpg);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  animation: back 6s ease-in infinite;
+  overflow: hidden;
+}
+
+.bubbles {
+  background-image: url(../../assets/bubbles_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.bub1 {
+  width: 6vw;
+  height: 14vw;
+  bottom: -14vw;
+  left: 40vw;
+  animation-delay: 4s;
+  animation: bubbles_go 7s  ease-in infinite;
+}
+
+.bub2 {
+  width: 3vw;
+  height: 8vw;
+  bottom: -8vw;
+  right: 30vw;
+  animation-delay: 7s;
+  animation: bubbles_go 8s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+}
+.bub3 {
+  width: 5vw;
+  height: 10vw;
+  bottom: -10vw;
+  left: 5vw;
+  animation: bubbles_go 8s infinite 4s cubic-bezier(0.175, 0.885, 0.32, 1);
+}
+
+@keyframes back {
+  0%,
+  100% {
+    transform: scale(1.002);
+  }
+  50% {
+    transform: scale(1.005);
+  }
+} 
+
+@keyframes bubbles_go {
+  0% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}

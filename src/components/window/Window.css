@@ -1,0 +1,165 @@
+.pointer {
+  cursor: pointer;
+}
+
+.window {
+  background: transparent;
+  position: absolute;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 5;
+  border: none;
+}
+
+.diver {
+  width: 9vw;
+  height: 18vw;
+  right: 20vw;
+  top: 25vh;
+  background-image: url(../../assets/nurek.png);
+  animation: slowdiveY 5s infinite;
+}
+
+.shark {
+  background-image: url(../../assets/shark_smol.png);
+  width: 18vw;
+  height: 11vw;
+  bottom: 10vh;
+  right: 60vw;
+  animation: slowdiveR 4s infinite ease-in-out alternate;
+}
+
+.plant {
+  background-image: url(../../assets/plant.png);
+  width: 8vw;
+  height: 30vw;
+  right: 1vw;
+  bottom: 0;
+  animation: slowdivePlant 6s infinite ease alternate;
+  transform-origin: bottom;
+}
+
+.astrodome {
+  background-image: url(../../assets/kopuly_ciete.png);
+  width: 16vw;
+  height: 7vw;
+  background-position: bottom;
+  bottom: 0;
+  right: 34vw;
+  animation: shake 4s infinite linear;
+}
+
+.fish {
+  background-image: url(../../assets/ryby_klik.png);
+  width: 9vw;
+  height: 8vw;
+  top: 50vh;
+  left: 8vw;
+  animation : fish 5s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+.buble {
+  background-image: url(../../assets/bubble.png);
+  width: 5vw;
+  height: 8vw;
+  right: 35vw;
+  top: 10vh;
+  animation: bubbles 3s infinite ease-in;
+}
+
+.submarine {
+  background-image: url(../../assets/submarine.png);
+  width: 25vw;
+  height: 15vw;
+  left: 10vw;
+  transform-origin: right;
+  animation: submarino 4s infinite alternate
+}
+
+@keyframes slowdiveY {
+  0%,
+  100% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+}
+
+@keyframes slowdiveR {
+  from {
+    transform: rotate(0deg) translateX(0%);
+  }
+  to {
+    transform: rotate(5deg) translateX(8%);
+  }
+}
+
+@keyframes slowdivePlant {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(-12deg);
+  }
+}
+
+@keyframes shake {
+  2%,
+  18% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  4%,
+  16% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  6%,
+  10%,
+  14% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  8%,
+  12% {
+    transform: translate3d(4px, 0, 0);
+  }
+  20% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fish {
+  0%, 
+  45%,
+  100% {
+    transform: scale(1, 1);
+  }
+  50%, 95% {
+    transform: scale(-1, 1);
+  }
+}
+
+
+@keyframes bubbles {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes submarino {
+  from {
+    transform: scale(.85) rotateX(0deg) 
+  }
+  to {
+    transform: scale(1) rotateX(20deg)
+  }
+}
