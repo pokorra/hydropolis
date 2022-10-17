@@ -14,69 +14,129 @@
 }
 
 .diver {
-  width: 9vw;
-  height: 18vw;
-  right: 20vw;
+  width: 10vh;
+  height: 20vh;
+  right: 40vw;
   top: 25vh;
   background-image: url(../../assets/nurek.png);
   animation: slowdiveY 5s infinite;
 }
-
+@media screen and (min-width: 1000px) {
+  .diver {
+    width: 9vw;
+    height: 18vw;
+    right: 20vw;
+    top: 25vh;
+  }
+}
 .shark {
+  width: 40vw;
+  height: 30vw;
+  bottom: 40vh;
+  left: 3vw;
   background-image: url(../../assets/shark_smol.png);
-  width: 18vw;
-  height: 11vw;
-  bottom: 10vh;
-  right: 60vw;
   animation: slowdiveR 4s infinite ease-in-out alternate;
+}
+@media screen and (min-width: 1000px) {
+  .shark {
+    width: 18vw;
+    height: 11vw;
+    bottom: 10vh;
+    right: 60vw;
+  }
 }
 
 .plant {
   background-image: url(../../assets/plant.png);
-  width: 8vw;
-  height: 30vw;
-  right: 1vw;
-  bottom: 0;
+  width: 10vh;
+  height: 40vh;
+  right: 0;
+  bottom: 18vh;
   animation: slowdivePlant 6s infinite ease alternate;
   transform-origin: bottom;
 }
 
+@media screen and (min-width: 1000px) {
+  .plant {
+    width: 8vw;
+    height: 30vw;
+    right: 1vw;
+    bottom: 0;
+  }
+}
+
 .astrodome {
-  background-image: url(../../assets/kopuly_ciete.png);
-  width: 16vw;
-  height: 7vw;
-  background-position: bottom;
-  bottom: 0;
-  right: 34vw;
+  background-image: url(../../assets/kopuly_smol.png);
+  width: 50vw;
+  height: 30vw;
+  bottom: 10vh;
+  left: 0vw;
   animation: shake 4s infinite linear;
+}
+
+@media screen and (min-width: 1000px) {
+  .astrodome {
+    background-image: url(../../assets/kopuly_ciete.png);
+    width: 16vw;
+    height: 7vw;
+    background-position: bottom;
+    bottom: 0;
+    right: 34vw;
+  }
 }
 
 .fish {
   background-image: url(../../assets/ryby_klik.png);
-  width: 9vw;
-  height: 8vw;
-  top: 50vh;
-  left: 8vw;
-  animation : fish 5s infinite ease-in-out;
+  width: 9vh;
+  height: 8vh;
+  top: 20vh;
+  right: 8vw;
+  animation: fish 5s infinite ease-in-out;
   animation-delay: 2s;
+}
+@media screen and (min-width: 1000px) {
+  .fish {
+    width: 9vw;
+    height: 8vw;
+    top: 50vh;
+    left: 8vw;
+  }
 }
 
 .buble {
   background-image: url(../../assets/bubble.png);
-  width: 5vw;
-  height: 8vw;
-  right: 35vw;
-  top: 10vh;
+  width: 6vh;
+  height: 8vh;
+  left: 5vw;
+  top: 30vh;
   animation: bubbles 3s infinite ease-in;
+}
+
+@media screen and (min-width: 1000px) {
+  .buble {
+    width: 5vw;
+    height: 8vw;
+    right: 35vw;
+    top: 10vh;
+  }
 }
 
 .submarine {
   background-image: url(../../assets/submarine.png);
-  width: 25vw;
-  height: 15vw;
-  left: 10vw;
+  width: 30vh;
+  height: 15vh;
+  right: 0vw;
+  top: 0;
   transform-origin: right;
-  animation: submarino 4s infinite alternate
+  animation: submarino 4s infinite alternate;
+}
+@media screen and (min-width: 1000px) {
+  .submarine {
+    width: 25vw;
+    height: 15vw;
+    left: 10vw;
+    top: 0;
+  }
 }
 
 @keyframes slowdiveY {
@@ -134,16 +194,16 @@
 }
 
 @keyframes fish {
-  0%, 
+  0%,
   45%,
   100% {
     transform: scale(1, 1);
   }
-  50%, 95% {
+  50%,
+  95% {
     transform: scale(-1, 1);
   }
 }
-
 
 @keyframes bubbles {
   0%,
@@ -157,9 +217,9 @@
 
 @keyframes submarino {
   from {
-    transform: scale(.85) rotateX(0deg) 
+    transform: scale(0.85) rotateX(0deg);
   }
   to {
-    transform: scale(1) rotateX(20deg)
+    transform: scale(1) rotateX(20deg);
   }
 }
