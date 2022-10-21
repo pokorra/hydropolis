@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/hydropolis/static/css/main.36fb3ec0.css",
-    "main.js": "/hydropolis/static/js/main.6b0a1ef1.js",
+    "main.css": "/hydropolis/static/css/main.afa87bbd.css",
+    "main.js": "/hydropolis/static/js/main.c8ad27fb.js",
     "static/media/mobile_background.png": "/hydropolis/static/media/mobile_background.28fb468a6842f55c806e.png",
     "static/media/kopuly_ciete.png": "/hydropolis/static/media/kopuly_ciete.17c73af8d05b22549a51.png",
     "static/media/desktop_backgroundj.jpg": "/hydropolis/static/media/desktop_backgroundj.6aba52446f9865af8ac6.jpg",
+    "static/media/modal_background3.jpg": "/hydropolis/static/media/modal_background3.a26c3ad57f9af21e1135.jpg",
+    "static/media/modal_background1.jpg": "/hydropolis/static/media/modal_background1.6f4589e0ce675f5f3689.jpg",
     "static/media/plant.png": "/hydropolis/static/media/plant.ffc4d0f9efd7d4950e73.png",
+    "static/media/hydropolis.png": "/hydropolis/static/media/hydropolis.5e9c753a0d540640c395.png",
     "static/media/modal_background2.jpg": "/hydropolis/static/media/modal_background2.861bcebbc14860973f5b.jpg",
     "static/media/submarine.png": "/hydropolis/static/media/submarine.4224fac5a517a8f080cb.png",
     "static/media/nurek.png": "/hydropolis/static/media/nurek.e609a9574cb34b76c086.png",
@@ -15,11 +18,11 @@
     "static/media/bubble.png": "/hydropolis/static/media/bubble.64f46d64f99f0086edc6.png",
     "static/media/kopuly_smol.png": "/hydropolis/static/media/kopuly_smol.b1c0eb8129d21423f5e4.png",
     "index.html": "/hydropolis/index.html",
-    "main.36fb3ec0.css.map": "/hydropolis/static/css/main.36fb3ec0.css.map",
-    "main.6b0a1ef1.js.map": "/hydropolis/static/js/main.6b0a1ef1.js.map"
+    "main.afa87bbd.css.map": "/hydropolis/static/css/main.afa87bbd.css.map",
+    "main.c8ad27fb.js.map": "/hydropolis/static/js/main.c8ad27fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.36fb3ec0.css",
-    "static/js/main.6b0a1ef1.js"
+    "static/css/main.afa87bbd.css",
+    "static/js/main.c8ad27fb.js"
   ]
 }
