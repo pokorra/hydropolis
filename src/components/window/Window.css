@@ -2,6 +2,13 @@
   cursor: pointer;
 }
 
+.gift-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .window {
   background: transparent;
   position: absolute;
@@ -82,7 +89,7 @@
     width: 16vw;
     height: 7vw;
     bottom: 0;
-    left:auto;
+    left: auto;
     right: 34vw;
   }
 }
@@ -150,23 +157,37 @@
   background-size: cover;
   background-position: top left;
   min-height: 50vh;
-  color: rgb(220, 220, 220);;
+  color: rgb(220, 220, 220);
 }
+@media screen and (min-width: 1000px) {
+  .modal-additional {
+    max-width: 40vw;
+  }
+}
+.modal-diver {
+  background-image: url(../../assets/modal_background1.jpg);
+}
+.modal-shark {
+  background-image: url(../../assets/modal_background3.jpg);
+
+}
+
 .modal-additional .h4 {
-  color: rgb(220, 220, 220);;
+  color: rgb(220, 220, 220);
 }
 .modal-additional .modal-header .btn-close {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
 .modal-additional .modal-body {
-  color:white;
+  margin: 4vh 2vw;
+  color: white;
 }
 .modal-additional button {
-  background-color: #0000004D;
+  background-color: #0000004d;
   padding: 0.3rem 1rem;
   border: none;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   color: rgb(220, 220, 220);
   letter-spacing: 1px;
 }

@@ -20,12 +20,23 @@ const Window = ({ currentDate, name, thisDay }) => {
         onHide={closeModal}
         size="lg"
         centered
-        contentClassName="modal-additional"
+        contentClassName={`modal-additional modal-${name}`}
       >
         <Modal.Header closeButton>
           <Modal.Title> {thisDay} </Modal.Title>
         </Modal.Header>
-        <Modal.Body>{name}</Modal.Body>
+        <Modal.Body>
+          
+          <div className="gift-container">
+            <iframe
+              src="https://www.youtube.com/embed/aCUbhUvC6FE"
+              title="Hydropolis"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </Modal.Body>
         <Modal.Footer>
           <button onClick={closeModal}>Zamknij</button>
         </Modal.Footer>

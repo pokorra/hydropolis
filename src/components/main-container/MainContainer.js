@@ -15,6 +15,7 @@ const MainContainer = () => {
       <Window currentDate={currentDate} name="fish" thisDay={1}/>
       <Window currentDate={currentDate} name="buble" thisDay={1}/>
       <Window currentDate={currentDate} name="submarine" thisDay={1}/>
+      <div className="hydropolis"/>
       <div className="bubbles bub1"/>
       <div className="bubbles bub2"/>
       <div className="bubbles bub3"/>

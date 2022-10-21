@@ -6,6 +6,17 @@
   height: 100vh;
 }
 
+.hydropolis {
+  background-image: url(../../assets/hydropolis.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 15vw;
+  top: 2vh;
+  left: 2vw;
+  position: absolute;
+}
+
 @media screen and (min-width: 1000px) {
   .background {
     width: 100vw;
@@ -48,6 +59,12 @@
     bottom: -10vw;
     left: 5vw;
     animation: bubbles_go 8s infinite 4s cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+  .hydropolis {
+    width: 20vw;
+    height: 6vw;
+    left: auto;
+    right: 15vw;
   }
 }
 
