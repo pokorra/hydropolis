@@ -1,0 +1,36 @@
+.plant {
+  background-image: url(/src/assets/windows_active/plant_sm.png);
+  width: 10vh;
+  height: 40vh;
+  right: 0;
+  bottom: 18vh;
+  transform-origin: bottom;
+}
+
+.dis-plant {
+  animation: none;
+}
+
+.active-plant {
+  cursor: pointer;
+  animation: slowdivePlant 6s infinite ease alternate;
+}
+
+@media screen and (min-width: 1000px) {
+  .plant {
+    background-image: url(/src/assets/windows_active/plant.png);
+    width: 8vw;
+    height: 30vw;
+    right: 1vw;
+    bottom: 0;
+  }
+}
+
+@keyframes slowdivePlant {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(-12deg);
+  }
+}

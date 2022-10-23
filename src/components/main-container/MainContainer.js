@@ -11,10 +11,10 @@ const MainContainer = () => {
       <Window currentDate={currentDate} name="diver" thisDay={1}/>
       <Window currentDate={currentDate} name="shark" thisDay={1}/>
       <Window currentDate={currentDate} name="plant" thisDay={1}/>
-      <Window currentDate={currentDate} name="astrodome" thisDay={1}/>
+      <Window currentDate={currentDate} name="astrodome" thisDay={5}/>
       <Window currentDate={currentDate} name="fish" thisDay={1}/>
-      <Window currentDate={currentDate} name="buble" thisDay={1}/>
-      <Window currentDate={currentDate} name="submarine" thisDay={1}/>
+      <Window currentDate={currentDate} name="bubble" thisDay={1}/>
+      <Window currentDate={currentDate} name="submarine" thisDay={5}/>
       <div className="hydropolis"/>
       <div className="bubbles bub1"/>
       <div className="bubbles bub2"/>

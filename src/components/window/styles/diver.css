@@ -1,0 +1,36 @@
+.diver {
+  width: 10vh;
+  height: 20vh;
+  right: 40vw;
+  top: 27vh;
+  background-image: url(/src/assets/windows_active/nurek_sm.png);
+}
+
+.dis-diver {
+  animation: none;
+}
+
+.active-diver {
+  cursor: pointer;
+  animation: slowdiveY 5s infinite;
+}
+
+@media screen and (min-width: 1000px) {
+  .diver {
+    background-image: url(/src/assets/windows_active/nurek.png);
+    width: 9vw;
+    height: 18vw;
+    right: 20vw;
+    top: 35vh;
+  }
+}
+
+@keyframes slowdiveY {
+  0%,
+  100% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+}

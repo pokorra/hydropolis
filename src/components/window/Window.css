@@ -1,174 +1,57 @@
-.pointer {
-  cursor: pointer;
-}
+@import url(/src/components/window/styles/submarine.css);
+@import url(/src/components/window/styles/diver.css);
+@import url(/src/components/window/styles/shark.css);
+@import url(/src/components/window/styles/astrodome.css);
+@import url(/src/components/window/styles/plant.css);
+@import url(/src/components/window/styles/fish.css);
+@import url(/src/components/window/styles/bubble.css);
 
-.gift-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
 
 .window {
-  background: transparent;
+  background-color: transparent;
   position: absolute;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  cursor: pointer;
   z-index: 5;
   border: none;
 }
 
-.diver {
-  width: 10vh;
-  height: 20vh;
-  right: 40vw;
-  top: 25vh;
-  background-image: url(../../assets/nurek.png);
-  animation: slowdiveY 5s infinite;
-}
-@media screen and (min-width: 1000px) {
-  .diver {
-    width: 9vw;
-    height: 18vw;
-    right: 20vw;
-    top: 25vh;
-  }
-}
-.shark {
-  width: 40vw;
-  height: 30vw;
-  bottom: 40vh;
-  left: 3vw;
-  background-image: url(../../assets/shark_smol.png);
-  animation: slowdiveR 4s infinite ease-in-out alternate;
-}
-@media screen and (min-width: 1000px) {
-  .shark {
-    width: 18vw;
-    height: 11vw;
-    bottom: 10vh;
-    left: auto;
-    right: 60vw;
-  }
-}
-
-.plant {
-  background-image: url(../../assets/plant.png);
-  width: 10vh;
-  height: 40vh;
-  right: 0;
-  bottom: 18vh;
-  animation: slowdivePlant 6s infinite ease alternate;
-  transform-origin: bottom;
-}
-
-@media screen and (min-width: 1000px) {
-  .plant {
-    width: 8vw;
-    height: 30vw;
-    right: 1vw;
-    bottom: 0;
-  }
-}
-
-.astrodome {
-  background-image: url(../../assets/kopuly_smol.png);
-  width: 50vw;
-  height: 30vw;
-  bottom: 10vh;
-  left: 0vw;
-  animation: shake 4s infinite linear;
-}
-
-@media screen and (min-width: 1000px) {
-  .astrodome {
-    background-image: url(../../assets/kopuly_ciete.png);
-    background-position: bottom;
-    width: 16vw;
-    height: 7vw;
-    bottom: 0;
-    left: auto;
-    right: 34vw;
-  }
-}
-
-.fish {
-  background-image: url(../../assets/ryby_klik.png);
-  width: 9vh;
-  height: 8vh;
-  top: 20vh;
-  right: 8vw;
-  animation: fish 5s infinite ease-in-out;
-  animation-delay: 2s;
-}
-@media screen and (min-width: 1000px) {
-  .fish {
-    width: 9vw;
-    height: 8vw;
-    top: 50vh;
-    right: auto;
-    left: 8vw;
-  }
-}
-
-.buble {
-  background-image: url(../../assets/bubble.png);
-  width: 6vh;
-  height: 8vh;
-  left: 5vw;
-  top: 30vh;
-  animation: bubbles 3s infinite ease-in;
-}
-
-@media screen and (min-width: 1000px) {
-  .buble {
-    width: 5vw;
-    height: 8vw;
-    left: auto;
-    right: 35vw;
-    top: 10vh;
-  }
-}
-
-.submarine {
-  background-image: url(../../assets/submarine.png);
-  width: 30vh;
-  height: 15vh;
-  right: 0vw;
-  top: 0;
-  transform-origin: right;
-  animation: submarino 4s infinite alternate;
-}
-
-@media screen and (min-width: 1000px) {
-  .submarine {
-    width: 25vw;
-    height: 15vw;
-    right: auto;
-    left: 10vw;
-    top: 0;
-  }
-}
-
 .modal-additional {
-  background-image: url(../../assets/modal_background2.jpg);
+  background-image: url(/src/assets/modal_background2.jpg);
   background-size: cover;
   background-position: top left;
   min-height: 50vh;
   color: rgb(220, 220, 220);
 }
+
+.gift-container {
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 1000px) {
   .modal-additional {
-    max-width: 40vw;
+    width: 40vw;
+  }
+
+  .gift-container {
+    min-height: 30vh;
+  }
+
+  .gift-container iframe {
+    width: 30vw;
   }
 }
+
 .modal-diver {
-  background-image: url(../../assets/modal_background1.jpg);
+  background-image: url(/src/assets/modal_background1.jpg);
 }
+
 .modal-shark {
-  background-image: url(../../assets/modal_background3.jpg);
+  background-image: url(/src/assets/modal_background3.jpg);
 
 }
 
@@ -196,91 +79,5 @@
   .modal-additional {
     max-width: 50vw;
     margin: auto;
-  }
-}
-
-/* keyframes: */
-@keyframes slowdiveY {
-  0%,
-  100% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(5%);
-  }
-}
-
-@keyframes slowdiveR {
-  from {
-    transform: rotate(0deg) translateX(0%);
-  }
-  to {
-    transform: rotate(5deg) translateX(8%);
-  }
-}
-
-@keyframes slowdivePlant {
-  from {
-    transform: rotate(-5deg);
-  }
-  to {
-    transform: rotate(-12deg);
-  }
-}
-
-@keyframes shake {
-  2%,
-  18% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  4%,
-  16% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  6%,
-  10%,
-  14% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  8%,
-  12% {
-    transform: translate3d(4px, 0, 0);
-  }
-  20% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes fish {
-  0%,
-  45%,
-  100% {
-    transform: scale(1, 1);
-  }
-  50%,
-  95% {
-    transform: scale(-1, 1);
-  }
-}
-
-@keyframes bubbles {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.9);
-  }
-}
-
-@keyframes submarino {
-  from {
-    transform: scale(0.85) rotateX(0deg);
-  }
-  to {
-    transform: scale(1) rotateX(20deg);
   }
 }

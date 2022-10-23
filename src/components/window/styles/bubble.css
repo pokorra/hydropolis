@@ -1,0 +1,36 @@
+.bubble {
+  background-image: url(/src/assets/windows_active/bubble.png);
+  width: 6vh;
+  height: 8vh;
+  left: 5vw;
+  top: 30vh;
+}
+
+.dis-bubble {
+  animation: none;
+}
+
+.active-bubble {
+  cursor: pointer;
+  animation: bubbles 3s infinite ease-in;
+}
+
+@media screen and (min-width: 1000px) {
+  .bubble {
+    width: 5vw;
+    height: 8vw;
+    left: auto;
+    right: 35vw;
+    top: 10vh;
+  }
+}
+
+@keyframes bubbles {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+}

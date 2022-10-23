@@ -1,0 +1,35 @@
+.shark {
+  width: 40vw;
+  height: 30vw;
+  bottom: 40vh;
+  left: 3vw;
+  background-image: url(/src/assets/windows_active/shark_sm.png);
+}
+
+.dis-shark {
+  animation: none;
+}
+
+.active-shark {
+  animation: slowdiveR 4s infinite ease-in-out alternate;
+}
+
+@media screen and (min-width: 1000px) {
+  .shark {
+    background-image: url(/src/assets/windows_active/shark.png);
+    width: 18vw;
+    height: 11vw;
+    bottom: 30vh;
+    left: auto;
+    right: 60vw;
+  }
+}
+
+@keyframes slowdiveR {
+  from {
+    transform: rotate(0deg) translateX(0%);
+  }
+  to {
+    transform: rotate(5deg) translateX(8%);
+  }
+}

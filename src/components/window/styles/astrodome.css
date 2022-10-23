@@ -1,0 +1,54 @@
+.astrodome {
+  background-image: url(/src/assets/windows_active/kopuly_smol.png);
+  width: 50vw;
+  height: 30vw;
+  bottom: 10vh;
+  left: 0vw;
+}
+
+.dis-astrodome {
+  animation: none;
+}
+
+.active-astrodome {
+  cursor: pointer;
+  animation: shake 4s infinite linear;
+}
+
+@media screen and (min-width: 1000px) {
+  .astrodome {
+    background-image: url(/src/assets/windows_active/kopuly_ciete.png);
+    background-position: bottom;
+    width: 16vw;
+    height: 7vw;
+    bottom: 0;
+    left: auto;
+    right: 34vw;
+  }
+}
+
+@keyframes shake {
+  2%,
+  18% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  4%,
+  16% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  6%,
+  10%,
+  14% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  8%,
+  12% {
+    transform: translate3d(4px, 0, 0);
+  }
+  20% {
+    transform: translate3d(0, 0, 0);
+  }
+}

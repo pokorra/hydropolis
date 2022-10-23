@@ -1,0 +1,40 @@
+.submarine {
+  background-image: url(/src/assets/windows_active/submarine.png);
+  background-position: center;
+  background-size: contain;
+  width: 30vh;
+  height: 15vh;
+  right: 0vw;
+  top: 0;
+  transform-origin: right;
+}
+
+.dis-submarine {
+  animation: none;
+}
+
+.active-submarine {
+  cursor: pointer;
+  animation: submarino 4s infinite alternate;
+
+}
+
+@media screen and (min-width: 1000px) {
+  .submarine {
+    background-image: url(/src/assets/windows_active/submarine.png);
+    width: 25vw;
+    height: 15vw;
+    right: auto;
+    left: 10vw;
+    top: 10vh;
+  }
+}
+
+@keyframes submarino {
+  from {
+    transform: scale(0.85) rotateX(0deg);
+  }
+  to {
+    transform: scale(1) rotateX(20deg);
+  }
+}

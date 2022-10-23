@@ -11,7 +11,7 @@ const Window = ({ currentDate, name, thisDay }) => {
   return (
     <>
       <button
-        className={`window ${name} ${isBtnDsbled ? "darker" : "pointer"}`}
+        className={`window ${name} ${isBtnDsbled ? `dis-${name}` : `active-${name}`}`}
         onClick={openModal}
         disabled={isBtnDsbled}
       />
