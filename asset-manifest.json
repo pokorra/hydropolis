@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hydropolis/static/css/main.f42bb697.css",
+    "main.css": "/hydropolis/static/css/main.c83fa9a0.css",
     "main.js": "/hydropolis/static/js/main.fdd424f4.js",
     "static/media/mobile_background.png": "/hydropolis/static/media/mobile_background.28fb468a6842f55c806e.png",
     "static/media/kopuly_ciete.png": "/hydropolis/static/media/kopuly_ciete.17c73af8d05b22549a51.png",
@@ -22,11 +22,11 @@
     "static/media/copy_small.png": "/hydropolis/static/media/copy_small.b5fe00fb9278ebee24ef.png",
     "static/media/shark_sm.png": "/hydropolis/static/media/shark_sm.9a9c5a500f36ed72cbb6.png",
     "index.html": "/hydropolis/index.html",
-    "main.f42bb697.css.map": "/hydropolis/static/css/main.f42bb697.css.map",
+    "main.c83fa9a0.css.map": "/hydropolis/static/css/main.c83fa9a0.css.map",
     "main.fdd424f4.js.map": "/hydropolis/static/js/main.fdd424f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f42bb697.css",
+    "static/css/main.c83fa9a0.css",
     "static/js/main.fdd424f4.js"
   ]
 }
