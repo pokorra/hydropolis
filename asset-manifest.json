@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/hydropolis/static/css/main.c83fa9a0.css",
-    "main.js": "/hydropolis/static/js/main.fdd424f4.js",
+    "main.css": "/hydropolis/static/css/main.dccc33f6.css",
+    "main.js": "/hydropolis/static/js/main.0642ce7f.js",
     "static/media/mobile_background.png": "/hydropolis/static/media/mobile_background.28fb468a6842f55c806e.png",
     "static/media/kopuly_ciete.png": "/hydropolis/static/media/kopuly_ciete.17c73af8d05b22549a51.png",
     "static/media/desktop_backgroundj.jpg": "/hydropolis/static/media/desktop_backgroundj.6aba52446f9865af8ac6.jpg",
+    "static/media/fish_circle.png": "/hydropolis/static/media/fish_circle.ac195d77ca4a809ee55c.png",
     "static/media/modal_background3.jpg": "/hydropolis/static/media/modal_background3.a26c3ad57f9af21e1135.jpg",
     "static/media/modal_background1.jpg": "/hydropolis/static/media/modal_background1.6f4589e0ce675f5f3689.jpg",
     "static/media/plant.png": "/hydropolis/static/media/plant.ffc4d0f9efd7d4950e73.png",
@@ -22,11 +23,11 @@
     "static/media/copy_small.png": "/hydropolis/static/media/copy_small.b5fe00fb9278ebee24ef.png",
     "static/media/shark_sm.png": "/hydropolis/static/media/shark_sm.9a9c5a500f36ed72cbb6.png",
     "index.html": "/hydropolis/index.html",
-    "main.c83fa9a0.css.map": "/hydropolis/static/css/main.c83fa9a0.css.map",
-    "main.fdd424f4.js.map": "/hydropolis/static/js/main.fdd424f4.js.map"
+    "main.dccc33f6.css.map": "/hydropolis/static/css/main.dccc33f6.css.map",
+    "main.0642ce7f.js.map": "/hydropolis/static/js/main.0642ce7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c83fa9a0.css",
-    "static/js/main.fdd424f4.js"
+    "static/css/main.dccc33f6.css",
+    "static/js/main.0642ce7f.js"
   ]
 }
