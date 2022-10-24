@@ -20,6 +20,7 @@ const MainContainer = () => {
       <div className="bubbles bub2"/>
       <div className="bubbles bub3"/>
       <div className="bubbles bub4"/>
+      <div className="fish-circle"/>
     </div>
   )
 };

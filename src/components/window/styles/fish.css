@@ -20,9 +20,12 @@
   .fish {
     width: 9vw;
     height: 8vw;
-    top: 50vh;
+    top: 55vh;
     right: auto;
-    left: 8vw;
+    left: 10vw;
+  }
+  .active-fish {
+    animation: bigger_fish 6s infinite ease-in-out;
   }
 }
 
@@ -35,6 +38,24 @@
   }
   50% {
     transform: translateX(-40%) scale(-1, 1)
+  }
+  95% {
+    transform: translate(0%) scale(-1, 1)
+  }
+  100% {
+    transform: translateX(0%) scale(1, 1)
+  }
+}
+
+@keyframes bigger_fish {
+  0% {
+    transform: translateX(0%) scale(1, 1)
+  }
+  45% {
+    transform: translateX(-90%) scale(1, 1)
+  }
+  50% {
+    transform: translateX(-90%) scale(-1, 1)
   }
   95% {
     transform: translate(0%) scale(-1, 1)

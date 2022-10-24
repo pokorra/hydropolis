@@ -17,6 +17,10 @@
   position: absolute;
 }
 
+.fish-circle {
+  display: none;
+}
+
 @media screen and (min-width: 1000px) {
   .background {
     width: 100vw;
@@ -34,6 +38,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
+    z-index: 3;
   }
 
   .bub1 {
@@ -67,6 +72,20 @@
     left: auto;
     right: 15vw;
   }
+  .fish-circle {
+    background-image: url(/src/assets/main_container/fish_circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    top: -15vw;
+    left: -10vw;
+    animation: circle_slow linear infinite ;
+    animation-duration: 6s;
+  }
+ 
 }
 
 @keyframes back {
@@ -94,5 +113,14 @@
   100% {
     transform: translateY(-100vh);
     opacity: 0;
+  }
+}
+
+@keyframes circle_slow {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(-360deg)
   }
 }
