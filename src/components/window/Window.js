@@ -23,9 +23,9 @@ const Window = ({ currentDate, name, thisDay , isBtnDsbled}) => {
         centered
         contentClassName={`modal-additional modal-${name}`}
       >
-        <Modal.Header closeButton>
-          <Modal.Title> {thisDay} </Modal.Title>
-        </Modal.Header>
+        {/* <Modal.Header closeButton> */}
+          {/* <Modal.Title> {thisDay} </Modal.Title> */}
+        {/* </Modal.Header> */}
         <Modal.Body>
           
           <div className="gift-container">
