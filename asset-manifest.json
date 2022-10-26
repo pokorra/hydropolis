@@ -1,33 +1,42 @@
 {
   "files": {
-    "main.css": "/hydropolis/static/css/main.dccc33f6.css",
-    "main.js": "/hydropolis/static/js/main.0642ce7f.js",
+    "main.css": "/hydropolis/static/css/main.d41e2130.css",
+    "main.js": "/hydropolis/static/js/main.a8384d27.js",
     "static/media/mobile_background.png": "/hydropolis/static/media/mobile_background.28fb468a6842f55c806e.png",
     "static/media/kopuly_ciete.png": "/hydropolis/static/media/kopuly_ciete.17c73af8d05b22549a51.png",
     "static/media/desktop_backgroundj.jpg": "/hydropolis/static/media/desktop_backgroundj.6aba52446f9865af8ac6.jpg",
     "static/media/fish_circle.png": "/hydropolis/static/media/fish_circle.ac195d77ca4a809ee55c.png",
+    "static/media/gr_kopuly_ciete.png": "/hydropolis/static/media/gr_kopuly_ciete.5e21b109aa20ad753f2d.png",
     "static/media/modal_background3.jpg": "/hydropolis/static/media/modal_background3.a26c3ad57f9af21e1135.jpg",
-    "static/media/modal_background1.jpg": "/hydropolis/static/media/modal_background1.6f4589e0ce675f5f3689.jpg",
     "static/media/plant.png": "/hydropolis/static/media/plant.ffc4d0f9efd7d4950e73.png",
-    "static/media/modal_background2.jpg": "/hydropolis/static/media/modal_background2.861bcebbc14860973f5b.jpg",
+    "static/media/gr_plant.png": "/hydropolis/static/media/gr_plant.13b75f2354402ab8cc97.png",
     "static/media/submarine.png": "/hydropolis/static/media/submarine.4224fac5a517a8f080cb.png",
     "static/media/nurek.png": "/hydropolis/static/media/nurek.e609a9574cb34b76c086.png",
+    "static/media/gr_submarine.png": "/hydropolis/static/media/gr_submarine.145640d3a5e4d23f6f7e.png",
     "static/media/shark.png": "/hydropolis/static/media/shark.e687e8ceb653e7f849db.png",
     "static/media/copy_med.png": "/hydropolis/static/media/copy_med.d3e88d6bc9b8ab5bde8e.png",
+    "static/media/gr_nurek.png": "/hydropolis/static/media/gr_nurek.7375a116729cb728aed6.png",
+    "static/media/gr_kopuly.png": "/hydropolis/static/media/gr_kopuly.7f0eeba0fa3099c40d37.png",
     "static/media/ryby_klik.png": "/hydropolis/static/media/ryby_klik.05237f0178ef44d96403.png",
+    "static/media/gr_shark.png": "/hydropolis/static/media/gr_shark.2292903e0ace52ae9a0f.png",
     "static/media/plant_sm.png": "/hydropolis/static/media/plant_sm.ed6482a6fe881df7a2e6.png",
     "static/media/bubbles_1.png": "/hydropolis/static/media/bubbles_1.55c305865041b1c31be4.png",
+    "static/media/gr_ryby_klik.png": "/hydropolis/static/media/gr_ryby_klik.cbcd6aa44a94d87c5e18.png",
     "static/media/bubble.png": "/hydropolis/static/media/bubble.64f46d64f99f0086edc6.png",
+    "static/media/gr_plant_sm.png": "/hydropolis/static/media/gr_plant_sm.bd54e9ca2eda703cfeca.png",
     "static/media/kopuly_smol.png": "/hydropolis/static/media/kopuly_smol.b1c0eb8129d21423f5e4.png",
     "static/media/nurek_sm.png": "/hydropolis/static/media/nurek_sm.72895db59d112694eaf0.png",
+    "static/media/gr_nurek_sm.png": "/hydropolis/static/media/gr_nurek_sm.4c08262a474d1daa3d62.png",
+    "static/media/gr_bubble.png": "/hydropolis/static/media/gr_bubble.bb233fedced5f4c18338.png",
+    "static/media/gr_submarine_sm.png": "/hydropolis/static/media/gr_submarine_sm.5818f0522675fe6859ad.png",
     "static/media/copy_small.png": "/hydropolis/static/media/copy_small.b5fe00fb9278ebee24ef.png",
     "static/media/shark_sm.png": "/hydropolis/static/media/shark_sm.9a9c5a500f36ed72cbb6.png",
     "index.html": "/hydropolis/index.html",
-    "main.dccc33f6.css.map": "/hydropolis/static/css/main.dccc33f6.css.map",
-    "main.0642ce7f.js.map": "/hydropolis/static/js/main.0642ce7f.js.map"
+    "main.d41e2130.css.map": "/hydropolis/static/css/main.d41e2130.css.map",
+    "main.a8384d27.js.map": "/hydropolis/static/js/main.a8384d27.js.map"
   },
   "entrypoints": [
-    "static/css/main.dccc33f6.css",
-    "static/js/main.0642ce7f.js"
+    "static/css/main.d41e2130.css",
+    "static/js/main.a8384d27.js"
   ]
 }
