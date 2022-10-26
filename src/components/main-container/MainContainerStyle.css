@@ -21,6 +21,15 @@
   display: none;
 }
 
+.toggle {
+  position: absolute;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  bottom: 1vh;
+  left: 1vw;
+}
+
 @media screen and (min-width: 1000px) {
   .background {
     width: 100vw;

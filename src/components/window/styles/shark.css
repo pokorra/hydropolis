@@ -3,20 +3,21 @@
   height: 30vw;
   bottom: 40vh;
   left: 3vw;
-  background-image: url(/src/assets/windows_active/shark_sm.png);
 }
 
 .dis-shark {
+  background-image: url(/src/assets/windows_disable/gr_shark.png);
   animation: none;
 }
 
 .active-shark {
+  background-image: url(/src/assets/windows_active/shark_sm.png);
+  cursor: pointer;
   animation: slowdiveR 4s infinite ease-in-out alternate;
 }
 
 @media screen and (min-width: 1000px) {
   .shark {
-    background-image: url(/src/assets/windows_active/shark.png);
     width: 22vw;
     height: 14vw;
     bottom: 30vh;
@@ -24,6 +25,7 @@
     right: 55vw;
   }
   .active-shark {
+    background-image: url(/src/assets/windows_active/shark.png);
     animation: fasterdive 4s infinite ease-in-out alternate;
   }
 }

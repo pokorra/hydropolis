@@ -1,5 +1,4 @@
 .bubble {
-  background-image: url(/src/assets/windows_active/bubble.png);
   width: 6vh;
   height: 8vh;
   left: 5vw;
@@ -7,10 +6,12 @@
 }
 
 .dis-bubble {
+  background-image: url(/src/assets/windows_disable/gr_bubble.png);
   animation: none;
 }
 
 .active-bubble {
+  background-image: url(/src/assets/windows_active/bubble.png);
   cursor: pointer;
   animation: bubbles 3s infinite ease-in;
 }

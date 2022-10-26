@@ -1,5 +1,4 @@
 .submarine {
-  background-image: url(/src/assets/windows_active/submarine.png);
   background-position: center;
   background-size: contain;
   width: 30vh;
@@ -10,10 +9,12 @@
 }
 
 .dis-submarine {
+  background-image: url(/src/assets/windows_disable/gr_submarine_sm.png);
   animation: none;
 }
 
 .active-submarine {
+  background-image: url(/src/assets/windows_active/submarine.png);
   cursor: pointer;
   animation: submarino 5s infinite alternate;
 
@@ -21,13 +22,19 @@
 
 @media screen and (min-width: 1000px) {
   .submarine {
-    background-image: url(/src/assets/windows_active/submarine.png);
     width: 30vw;
     height: 15vw;
     right: auto;
     left: 20vw;
     top: 6vh;
     border: 1px solid white; 
+  }
+  .active-submarine {
+    background-image: url(/src/assets/windows_active/submarine.png);
+
+  }
+  .dis-submarine {
+    background-image: url(/src/assets/windows_disable/gr_submarine.png);
   }
 }
 

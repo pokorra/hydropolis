@@ -1,5 +1,4 @@
 .fish {
-  background-image: url(/src/assets/windows_active/ryby_klik.png);
   width: 9vh;
   height: 8vh;
   top: 20vh;
@@ -8,10 +7,12 @@
 }
 
 .dis-fish {
+  background-image: url(/src/assets/windows_disable/gr_ryby_klik.png);
   animation: none;
 }
 
 .active-fish {
+  background-image: url(/src/assets/windows_active/ryby_klik.png);
   cursor: pointer;
   animation: fish 8s infinite ease-in-out;
 }
