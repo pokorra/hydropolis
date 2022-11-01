@@ -2,10 +2,9 @@ import React from "react";
 import Modal from "react-bootstrap/Modal";
 import "./Window.css";
 
-const Window = ({ currentDate, name, thisDay , isBtnDsbled}) => {
+const Window = ({ currentDate, name, thisDay }) => {
   const [isModalOpen, setModalOpen] = React.useState(false);
-  // const isBtnDsbled = currentDate >= thisDay ? false : true;
-  // const isBtnDsbled = isOn;
+  const isBtnDsbled = currentDate >= thisDay ? false : true;
   const openModal = () => setModalOpen(true);
   const closeModal = () => setModalOpen(false);
 
