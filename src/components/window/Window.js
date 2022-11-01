@@ -28,15 +28,6 @@ const Window = ({ currentDate, name, thisDay, num }) => {
         {/* </Modal.Header> */}
         <Modal.Body>
           {data[num]}
-          {/* <div className="gift-container">
-            <iframe
-              src="https://www.youtube.com/embed/aCUbhUvC6FE"
-              title="Hydropolis"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div> */}
         </Modal.Body>
         <Modal.Footer>
           <button onClick={closeModal}>Zamknij</button>
