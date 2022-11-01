@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/hydropolis/static/css/main.d41e2130.css",
-    "main.js": "/hydropolis/static/js/main.a8384d27.js",
+    "main.css": "/hydropolis/static/css/main.fddb9bcd.css",
+    "main.js": "/hydropolis/static/js/main.6ea6457e.js",
     "static/media/mobile_background.png": "/hydropolis/static/media/mobile_background.28fb468a6842f55c806e.png",
+    "static/media/Hydropolis_tapeta_big.png": "/hydropolis/static/media/Hydropolis_tapeta_big.afa7a983eb5bc3bd07f7.png",
     "static/media/kopuly_ciete.png": "/hydropolis/static/media/kopuly_ciete.17c73af8d05b22549a51.png",
     "static/media/desktop_backgroundj.jpg": "/hydropolis/static/media/desktop_backgroundj.6aba52446f9865af8ac6.jpg",
     "static/media/fish_circle.png": "/hydropolis/static/media/fish_circle.ac195d77ca4a809ee55c.png",
@@ -14,6 +15,7 @@
     "static/media/nurek.png": "/hydropolis/static/media/nurek.e609a9574cb34b76c086.png",
     "static/media/gr_submarine.png": "/hydropolis/static/media/gr_submarine.145640d3a5e4d23f6f7e.png",
     "static/media/shark.png": "/hydropolis/static/media/shark.e687e8ceb653e7f849db.png",
+    "static/media/Hydropolis_tapeta_sm.jpg": "/hydropolis/static/media/Hydropolis_tapeta_sm.3fbd3a4bce110f75fced.jpg",
     "static/media/copy_med.png": "/hydropolis/static/media/copy_med.d3e88d6bc9b8ab5bde8e.png",
     "static/media/gr_nurek.png": "/hydropolis/static/media/gr_nurek.7375a116729cb728aed6.png",
     "static/media/gr_kopuly.png": "/hydropolis/static/media/gr_kopuly.7f0eeba0fa3099c40d37.png",
@@ -32,11 +34,11 @@
     "static/media/copy_small.png": "/hydropolis/static/media/copy_small.b5fe00fb9278ebee24ef.png",
     "static/media/shark_sm.png": "/hydropolis/static/media/shark_sm.9a9c5a500f36ed72cbb6.png",
     "index.html": "/hydropolis/index.html",
-    "main.d41e2130.css.map": "/hydropolis/static/css/main.d41e2130.css.map",
-    "main.a8384d27.js.map": "/hydropolis/static/js/main.a8384d27.js.map"
+    "main.fddb9bcd.css.map": "/hydropolis/static/css/main.fddb9bcd.css.map",
+    "main.6ea6457e.js.map": "/hydropolis/static/js/main.6ea6457e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d41e2130.css",
-    "static/js/main.a8384d27.js"
+    "static/css/main.fddb9bcd.css",
+    "static/js/main.6ea6457e.js"
   ]
 }
